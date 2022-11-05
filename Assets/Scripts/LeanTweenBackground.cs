@@ -15,6 +15,7 @@ public class LeanTweenBackground : MonoBehaviour
     private static GameObject background;
 
 
+
     private void Awake()
     {
         DontDestroyOnLoad(this);
