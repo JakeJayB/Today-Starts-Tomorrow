@@ -10,7 +10,6 @@ public class FadeOut : MonoBehaviour
     private void Awake() 
     {
        bool hasGameStarted = PlayerPrefs.GetInt("HasGameStarted") == 0 ? false : true;
-       Debug.Log("Inside Awake");
        if(hasGameStarted)
        {
             Destroy(this.gameObject.transform.parent.gameObject);
